@@ -27,3 +27,34 @@ Non-trainable params: 0 <br/>
 ## How to use 
 
 
+1. **Install Pipenv:**
+   Pipenv is a package manager that combines pip package installations with virtual environments. If you don't have Pipenv installed, you can install it using pip:
+   
+   ```shell
+   pip install pipenv
+   ```
+
+2. **Navigate to your project directory:**
+   Open your command-line interface and navigate to the root directory of the project.
+
+3. **Set up a virtual environment and install dependencies:**
+   Run the following command to create a new virtual environment and install the dependencies specified in your project's Pipfile:
+   
+   ```shell
+   pipenv install
+   ```
+
+   This command will create a new virtual environment if one doesn't exist already and install all the packages listed in the Pipfile. Pipenv will also create a Pipfile.lock file that locks the versions of your installed packages for future reproducibility.
+
+4. **Activate the virtual environment:**
+   To activate the virtual environment, run the following command:
+   
+   ```shell
+   pipenv shell
+   ```
+
+   This will activate the virtual environment <br>
+   
+   ##### After above steps , start running S5.ipynb
+
+
