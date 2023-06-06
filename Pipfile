@@ -6,8 +6,12 @@ name = "pypi"
 [packages]
 torch = "*"
 torchsummary = "*"
+torchvision = "*"
+tqdm = "*"
+matplotlib = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"
